@@ -1,0 +1,34 @@
+/* Reset en algemene stijlen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #362cba; 
+    color: #202124; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container voor de content */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Content sectie */
+page {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

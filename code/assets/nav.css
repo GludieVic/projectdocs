@@ -1,0 +1,27 @@
+/* Verticale menu aan de linkerkant */
+.vertical-buttons {
+    list-style-type: none;
+    padding: 20px;
+    width: 200px;
+}
+
+.vertical-buttons li {
+    margin-bottom: 15px;
+}
+
+.vertical-buttons a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #1a73e8; /* Google-blauw */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
+
+.vertical-buttons a:hover {
+    background-color: #e8f0fe;
+    transform: translateX(2px);
+}

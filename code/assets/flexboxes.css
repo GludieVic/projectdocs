@@ -1,0 +1,16 @@
+/* Flex container voor 2 kolommen */
+.two-columns {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* responsive */
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f1f3f4; /* lichte Google-achtige tint */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
