@@ -1,22 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS</title>
 
-    <!-- Link to your CSS file -->
- <link rel="stylesheet" href="../code/assets/styles.css">
-    <link rel="stylesheet" href="../code/assets/flexboxes.css">
-    <link rel="stylesheet" href="../code/assets/nav.css">
-    <link rel="stylesheet" href="../code/assets/typography.css">
-    
+    <!-- CSS-bestanden in dezelfde map of 'assets' map in root -->
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/flexboxes.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <link rel="stylesheet" href="assets/typography.css">
 </head>
 <body>
     <div class="container">
+        <!-- Titel -->
         <div class="title">
             BP HTML 00 Start
         </div>
-        <div>
+
+        <!-- Navigatie -->
+        <nav>
             <ul class="vertical-buttons">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Week1.html">Week 1</a></li>
@@ -24,14 +27,17 @@
                 <li><a href="Week3.html">Week 3</a></li>
                 <li><a href="Week4.html">Week 4</a></li>
             </ul>
-        </div>
-        <page>
+        </nav>
+
+        <!-- Hoofdcontent -->
+        <main>
             <h1>Mijn eerste pagina</h1>
             <h2>Subtitle</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis pulvinar nisl, sed ultrices purus ornare et...
             </p>
-            <!-- Flex container with 2 columns -->
+
+            <!-- Flex container met 2 kolommen -->
             <div class="two-columns">
                 <div class="column">
                     <p>
@@ -44,7 +50,8 @@
                     </p>
                 </div>
             </div>
-        </page>
+        </main>
     </div>
 </body>
 </html>
+
